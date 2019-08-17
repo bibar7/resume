@@ -201,6 +201,7 @@ html, body {
 
 h2 {
   font-family: 'Josefin Sans', sans-serif;
+  font-size: 3.5rem;
   font-style: italic;
   font-weight: 300;
 }
@@ -420,7 +421,7 @@ a {
   /*---------------NAV-------------------*/ }
 
   .jumbotron {
-    background-image: url('images/lights.jpg');
+    background-image: url('https://i.ibb.co/NZkxG1n/lights.jpg');
     width: 100%;
     height: auto;
     background-attachment: fixed;
@@ -549,7 +550,7 @@ a {
     line-height: 1.5;
     color: #ffffff;
     margin-bottom: 110px;
-    text-shadow: 3px 2px 2px rgba(0, 0, 0); }
+    text-shadow: 2px 3px 1px rgba(0, 0, 0); }
 
     #btp i {
       margin-left: -17px;
