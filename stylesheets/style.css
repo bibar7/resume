@@ -423,7 +423,7 @@ a {
   .jumbotron {
     background-image: url('https://i.ibb.co/NZkxG1n/lights.jpg');
     width: 100%;
-    height: auto;
+    height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
