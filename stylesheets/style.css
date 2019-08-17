@@ -579,6 +579,13 @@ a {
 #intro-header {
   text-align: center;
 }
+
+@media screen and (max-width: 480px) {
+
+    #about h3{
+      font-size: 2.45rem;
+      letter-spacing: .05em;
+    }}
 /*---------------TIMELINE - EXPERIENCE AND EDUCATION TIMELINE-------------------*/
 .timeline {
   margin-top: 15px;
@@ -764,16 +771,17 @@ a {
 #services .service-item {
   background-color: #ffffff;
   padding: 10px 20px 40px 20px; }
-  #services .service-item i {
-    font-size: 70px;
-    color: #26a9ed; }
+  #services .service-item img {
+    padding-top: 10px;
+  padding-bottom: 15px; }
   #services .service-item h5 {
     margin: 0;
     line-height: 1.4;
     font-size: 1.25em;
     font-weight: 700;
     color: #139ee6;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+   }
   #services .service-item p {
     color: #139ee6; }
 #services li:nth-child(even) .service-item {
