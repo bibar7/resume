@@ -141,21 +141,6 @@ Version:	    2.0
 
 }
 
-
-
-
-@font-face {
-  font-family: 'florencesans_sc_expBdIt';
-  src: url('fonts/Florence/florsn31-webfont.woff2') format('woff2'),
-       url('fonts/Florence/florsn31-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-
-
-
 @font-face {
   font-family: 'florencesans_scregular';
   src: url('fonts/Florence/florsn17-webfont.woff2') format('woff2'),
@@ -164,44 +149,6 @@ Version:	    2.0
   font-style: normal;
 
 }
-
-
-
-
-@font-face {
-  font-family: 'florencesans_scbold';
-  src: url('fonts/Florence/florsn18-webfont.woff2') format('woff2'),
-       url('fonts/Florence/florsn18-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-
-
-
-@font-face {
-  font-family: 'florencesans_scbold_italic';
-  src: url('fonts/Florence/florsn19-webfont.woff2') format('woff2'),
-       url('fonts/Florence/florsn19-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-
-
-
-@font-face {
-  font-family: 'florencesans_scitalic';
-  src: url('fonts/Florence/florsn20-webfont.woff2') format('woff2'),
-       url('fonts/Florence/florsn20-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-
 
 @font-face {
   font-family: 'florencesans_sc_condregular';
@@ -213,108 +160,13 @@ Version:	    2.0
 }
 
 @font-face {
-  font-family: 'florencesans_sc_conditalic';
-  src: url('fonts/Florence/florsn28-webfont.woff2') format('woff2'),
-       url('fonts/Florence/florsn28-webfont.woff') format('woff');
+  font-family: 'florencesans_scitalic';
+  src: url('fonts/Florence/florsn20-webfont.woff2') format('woff2'),
+       url('fonts/Florence/florsn20-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
 }
-
-
-@font-face {
-  font-family: 'florencesansregular';
-  src: url('fonts/Florence/florsn01-webfont.woff2') format('woff2'),
-       url('fonts/Florence/florsn01-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-
-
-
-@font-face {
-  font-family: 'florencesansbold';
-  src: url('fonts/Florence/florsn02-webfont.woff2') format('woff2'),
-       url('fonts/Florence/florsn02-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-
-
-
-@font-face {
-  font-family: 'florencesansbold_italic';
-  src: url('fonts/Florence/florsn03-webfont.woff2') format('woff2'),
-       url('fonts/Florence/florsn03-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-
-
-
-@font-face {
-  font-family: 'florencesansitalic';
-  src: url('fonts/Florence/florsn04-webfont.woff2') format('woff2'),
-       url('fonts/Florence/florsn04-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-@font-face {
-  font-family: 'florencesans_condregular';
-  src: url('fonts/Florence/florsn09-webfont.woff2') format('woff2'),
-       url('fonts/Florence/florsn09-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-
-
-
-@font-face {
-  font-family: 'florencesans_condbold';
-  src: url('fonts/Florence/florsn10-webfont.woff2') format('woff2'),
-       url('fonts/Florence/florsn10-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-
-
-
-@font-face {
-  font-family: 'florencesans_condbold_italic';
-  src: url('fonts/Florence/florsn11-webfont.woff2') format('woff2'),
-       url('fonts/Florence/florsn11-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-
-
-
-@font-face {
-  font-family: 'florencesans_conditalic';
-  src: url('fonts/Florence/florsn12-webfont.woff2') format('woff2'),
-       url('fonts/Florence/florsn12-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-@import url('https://fonts.googleapis.com/css?family=Slabo+27px|Tangerine&display=swap');
-
-
 
 
 /*---------------BODY-------------------*/
@@ -323,8 +175,8 @@ html, body {
   padding: 0;
   outline: 0;
   display: block;
-  font-family: 'Slabo 27px', serif;
-  font-size: 16px;
+  font-family: 'Zilla Slab';
+  font-size: 18px;
   background-color: #000000;
   color: #606060;
   -webkit-overflow-scrolling: touch;
@@ -337,34 +189,44 @@ html, body {
 /*-------------TYPOGRAPHY----------------*/
   
   h1{
-    font-family: 'florencesans_sc_expregular' !important;
+    font-family: 'florencesans_sc_expbold' !important;
+    letter-spacing: 0.05em;
   }
   
 
 
 h2 {
-  font-family: 'Tangerine', cursive;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 100;
+  font-style: italic;
 }
 
 h3 {
-  font-family: 'florencesans_scregular';
+  font-family: 'florencesans_sc_expregular';
+  font-size: 2.7rem;
+
 } 
 
 h4 {
-  font-family: 'florencesans_sc_condregular';
+  font-family: 'florencesans_scregular';
+
 }
 
 h5 {
-  font-family: 'florencesans_condregular';
-
+  font-family: 'Josefin Sans', sans-serif;
+font-variant: small-caps;
+font-size: 1.4rem;
 }
 
 h6 {
-  font-family: 'florencesansregular';
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+
 }
 
 p, a, li {
-  font-family: 'Slabo 27px', serif}
+  font-family: 'Zilla Slab', serif;
+}
 
 /* h1, h2, h3, h4, h5, h6 {
   font-weight: 500; }
@@ -372,11 +234,8 @@ p, a, li {
 p, a, li {
   font-weight: 400; } */
 
-h4 {
-  font-size: 2em; }
 
-h6 {
-  font-size: 1.4em; }
+
 
 p, blockquote {
   color: #606060;
@@ -452,9 +311,10 @@ a {
     visibility: visible;
     opacity: 1; }
 
+    
 /*---------------PAGE LOADER-------------------*/
 #page-loader {
-  background-color: #263137;
+  background-color: #000000;
   height: 100%;
   width: 100%;
   position: fixed;
@@ -481,7 +341,7 @@ a {
 .spinner {
   width: 50px;
   height: 50px;
-  background-color: #63bb67;
+  background-color: #D32F89;
   margin: 200px auto;
   -webkit-animation: rotateplane 1.2s infinite ease-in-out;
   animation: rotateplane 1.2s infinite ease-in-out; }
@@ -513,6 +373,12 @@ a {
   height: auto;
   padding: 25px 20px; }
 
+  h3.section-title {
+    color: #553ab2;
+    letter-spacing: .1em;
+    text-shadow: 2px 2px 2px rgba(235, 235, 235, 0.85) !important;
+
+  }
 /*---------------CONTAINER STRUCTURE-------------------*/
 .container {
   padding-right: 15px;
@@ -639,18 +505,14 @@ a {
         visibility: visible;
         opacity: 1; }
   #header h1 {
-    font-family: 'florencesans_sc_expbold';
-    font-weight: 400;
     margin-top: 75px;
     font-size: 3em;
     color: #ffffff;
     text-shadow: 6px 3px 0 #000000; }
   #header h2 {
     margin-top: -25px;
-    font-size: 2.1em;
-    letter-spacing: .2rem;
+    font-size: 1.4em;
     line-height: 1.5;
-    font-weight: 300;
     color: #fff;
     margin-bottom: 110px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.29); }
@@ -686,14 +548,20 @@ a {
       display: block;
       margin-top: -90px;
     }
+    #about h3 {
+      font-family: 'florencesans_scitalic';
+      font-size: 2.8rem;
+      letter-spacing: .2em;
+      color: #9ea0b4;
+      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.65);
+    } 
     #about #intro-div {
     padding: 30px 0; }
     #about #intro-div ul {
       padding: 0 5px;
-      margin-top: 85px; }
+      margin-top: 30px; }
       #about #intro-div ul li a i {
-        font-size: 25px;
-        color: #455A64;
+        font-size: 40px;
         opacity: .5;
         margin: 0 5px; }
         #about #intro-div ul li a i:hover {
@@ -701,7 +569,9 @@ a {
           opacity: 1; }
     #about #intro-div p {
       padding: 0 5%;
-      margin: 32px 0; }
+      margin: 32px 0; 
+      color: #000000;
+    }
     #about #intro-div .btn {
       width: 180px;
       height: auto;
@@ -814,13 +684,27 @@ a {
   background-color: #26a9ed;
   float: left;
   margin-bottom: 20px; }
-.timeline-content h3 {
-  padding: 0 20px;
+.timeline-content h4 {
+  padding: 20px 20px 0px;
+  margin-top: -15px;
+  letter-spacing: 0.05em;
   line-height: 30px;
   color: #fff;
-  font-size: 1.2em;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.65);
+  font-size: 1.3em;
   font-weight: 400;
   background-color: #26a9ed; }
+
+  .timeline-content h5 {
+    font-size: 1.1rem;
+    font-weight: 300;
+
+  }
+  .timeline-content h6{
+    font-size: 1rem;
+    font-weight: 300 !important;
+    font-style: italic;
+  }
 .timeline-content .sub-heading {
   text-decoration: none;
   color: #26a9ed;
@@ -870,19 +754,24 @@ a {
     color: #ffffff;
     font-size: 18px; }
 
+    #services h5 {
+      font-size: 1.2rem;
+      font-weight:700;
+
+    }
 #services ul {
   margin-bottom: 0; }
 #services .service-item {
   background-color: #ffffff;
-  padding: 20px 20px 30px 20px; }
+  padding: 10px 20px 40px 20px; }
   #services .service-item i {
     font-size: 70px;
     color: #26a9ed; }
-  #services .service-item h6 {
+  #services .service-item h5 {
     margin: 0;
     line-height: 1.4;
     font-size: 1.25em;
-    font-weight: 400;
+    font-weight: 700;
     color: #139ee6;
     padding-bottom: 20px; }
   #services .service-item p {
@@ -892,7 +781,7 @@ a {
   color: #ffffff; }
   #services li:nth-child(even) .service-item i {
     color: #ffffff; }
-  #services li:nth-child(even) .service-item h6, #services li:nth-child(even) .service-item p {
+  #services li:nth-child(even) .service-item h5, #services li:nth-child(even) .service-item p {
     color: #ffffff; }
 
 
@@ -1090,7 +979,7 @@ footer {
     cursor: default;
     color: #999; }
   .blog-page .pagination li i {
-    font-size: 2.2rem;
+    font-size: 2.1rem;
     vertical-align: middle; }
   .blog-page .pagination li.pages ul li {
     display: inline-block;
