@@ -201,8 +201,8 @@ html, body {
 
 h2 {
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: 100;
   font-style: italic;
+  font-weight: 300;
 }
 
 h3 {
@@ -413,10 +413,23 @@ a {
 #header {
   position: relative;
   display: block;
-  width: 100%;
-  height: auto;
   background-color: #6044c2;
+
+
+
   /*---------------NAV-------------------*/ }
+
+  .jumbotron {
+    background-image: url('images/lights.jpg');
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+ 
   #header nav {
     position: fixed;
     z-index: 5000;
@@ -465,7 +478,9 @@ a {
         width: 100%;
         height: auto;
         padding: 10px;
-        background-color: #6044c2; }
+        background-color: #6044c2;
+      }
+
         #header nav #side-nav #nav-header #nav-profile {
           position: relative;
           top: 10px;
@@ -532,15 +547,22 @@ a {
     margin-top: -25px;
     font-size: 1.4em;
     line-height: 1.5;
-    color: #42baf8;
+    color: #ffffff;
     margin-bottom: 110px;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.29); }
+    text-shadow: 3px 2px 2px rgba(0, 0, 0); }
 
     #btp i {
       margin-left: -17px;
       margin-top: -5px;
     }
 /*---------------ABOUT-------------------*/
+#intro.con {
+  width: 100%;
+height: auto;
+background-position: 100% 100%;
+background-repeat: no-repeat;
+}
+
 #intro-div.card {
   background-color: #b9b6e6
 }
