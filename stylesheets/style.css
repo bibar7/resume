@@ -181,7 +181,7 @@ html, body {
   font-family: 'Zilla Slab';
   font-size: 18px;
   font-weight: 500;
-  background-color: #000000;
+  background-color: #0a1339;
   color: #000000;
   -webkit-overflow-scrolling: touch;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -319,7 +319,7 @@ a {
     
 /*---------------PAGE LOADER-------------------*/
 #page-loader {
-  background-color: #000000;
+  background-color: #2ca1fb;
   height: 100%;
   width: 100%;
   position: fixed;
@@ -331,15 +331,20 @@ a {
     position: absolute;
     top: 270px;
     color: #ffffff; }
+    #page-loader .text-div p {
+color: #7f14f2;
+font-size: 1.1em;
+font-weight: 100;
+
+}
+
     #page-loader .text-div p, #page-loader .text-div h6 {
       margin: 0;
       display: block;
-      color: #ffffff;
-      font-size: .9em;
       letter-spacing: 1px;
-      font-weight: 100;
       text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.29); }
     #page-loader .text-div h6 {
+      color: #ffffff;
       margin-top: 5px;
         font-family: 'Josefin Sans', sans-serif;
         font-size: 5em;
@@ -443,7 +448,7 @@ a {
       height: 50px;
       color: #ffffff; }
       #header nav ul li a {
-        color: #35a4f7 !important;
+        color: #2ca1fb !important;
         font-family: 'Josefin Sans', sans-serif;
         font-size: 1.2rem;
         font-weight: 300;
@@ -609,7 +614,7 @@ background-repeat: no-repeat;
       font-family: 'florencesans_scitalic';
       font-size: 2.8rem;
       letter-spacing: .2em;
-      color: #35a4f7;
+      color: #2ca1fb;
       text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.65);
     } 
 
@@ -676,7 +681,7 @@ background-repeat: no-repeat;
   content: '';
   width: 0;
   height: 0;
-  border-top: 1em solid #35a4f7;
+  border-top: 1em solid #2ca1fb;
   border-left: 1em solid transparent;
   position: absolute;
   left: -1em;
@@ -753,7 +758,7 @@ background-repeat: no-repeat;
     margin-top: 70px; }
 
   .timeline li:nth-child(even):before {
-    border-top: 2em solid #35a4f7;
+    border-top: 2em solid #2ca1fb;
     border-left: 2em solid transparent;
     position: absolute;
     left: -2em;
@@ -768,7 +773,7 @@ background-repeat: no-repeat;
     float: left; }
 
   .timeline li:nth-child(odd):before {
-    border-top: 2em solid #35a4f7;
+    border-top: 2em solid #2ca1fb;
     border-right: 2em solid transparent;
     right: -2em;
     left: auto; }
@@ -790,7 +795,7 @@ background-repeat: no-repeat;
 .timeline-content .timeline-header {
   width: 100%;
   height: auto;
-  background-color: #35a4f7;
+  background-color: #2ca1fb;
   float: left;
   margin-bottom: 20px; }
 .timeline-content h4 {
@@ -802,7 +807,7 @@ background-repeat: no-repeat;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.65);
   font-size: 1.3em;
   font-weight: 400;
-  background-color: #35a4f7; }
+  background-color: #2ca1fb; }
 
   .timeline-content h5 {
     font-size: 1.1rem;
@@ -816,7 +821,7 @@ background-repeat: no-repeat;
   }
 .timeline-content .sub-heading {
   text-decoration: none;
-  color: #35a4f7;
+  color: #2ca1fb;
   padding: 0 20px;
   line-height: 1.2;
   font-weight: 400; }
@@ -834,7 +839,7 @@ background-repeat: no-repeat;
   margin-bottom: 40px; }
 
 .skill-wrapper {
-  background-color: #35a4f7;
+  background-color: #2ca1fb;
   color: #ffffff; }
 
 .skill-progress-div {
@@ -882,15 +887,15 @@ background-repeat: no-repeat;
     line-height: 1.4;
     font-size: 1.25em;
     font-weight: 700;
-    color: #35a4f7;
+    color: #2ca1fb;
     padding-bottom: 20px;
    }
   #services .service-item p {
-    color: #35a4f7; 
+    color: #2ca1fb; 
   font-weight: 400;
 }
 #services li:nth-child(even) .service-item {
-  background-color: #35a4f7;
+  background-color: #2ca1fb;
   color: #ffffff;
  }
   #services li:nth-child(even) .service-item i {
@@ -920,7 +925,7 @@ background-repeat: no-repeat;
       display: block;
       font-size: 35px;
       padding: 0;
-      color: #35a4f7; }
+      color: #2ca1fb; }
     .interest .interest-topic span {
       display: block; }
 
@@ -928,7 +933,7 @@ background-repeat: no-repeat;
 /*---------------INFORMATION-------------------*/
 .info {
   width: 100%;
-  background-color: #35a4f7;
+  background-color: #2ca1fb;
   min-height: 480px;
   height: auto; }
   .info ul {
@@ -993,7 +998,7 @@ background-repeat: no-repeat;
     height: 3px;
     display: block;
     width: 100%;
-    background-color: #35a4f7;
+    background-color: #2ca1fb;
     border-radius: 0;
     margin: 0;
     top: 0; }
@@ -1004,7 +1009,7 @@ background-repeat: no-repeat;
     min-width: 300px;
     margin-left: -150px;
     font-weight: 300;
-    background-color: #35a4f7;
+    background-color: #2ca1fb;
     color: #fff;
     text-align: center;
     padding: 16px;
