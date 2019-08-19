@@ -425,7 +425,7 @@ a {
     background-image: url('https://bibar7.github.io/resume/images/lights.png');
     width: 100%;
     height: auto;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
