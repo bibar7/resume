@@ -870,11 +870,7 @@ background-repeat: no-repeat;
     font-size: 18px; }
 
 
-    #services h5 {
-      font-size: 1.2rem;
-      font-weight:700;
-
-    }
+  
 #services ul {
   margin-bottom: 0; }
 #services .service-item {
@@ -886,21 +882,22 @@ background-repeat: no-repeat;
   #services .service-item h5 {
     margin: 0;
     line-height: 1.4;
-    font-size: 1.25em;
-    font-weight: 700;
     color: #2ca1fb;
     padding-bottom: 20px;
+    font-size: 1.25em;
+
    }
+
   #services .service-item p {
     color: #2ca1fb; 
-  font-weight: 400;
+    font-weight: 400;
 }
 #services li:nth-child(even) .service-item {
   background-color: #2ca1fb;
   color: #ffffff;
  }
-  #services li:nth-child(even) .service-item i {
-    color: #ffffff; }
+  /* #services li:nth-child(even) .service-item i {
+    color: #ffffff; } */
   #services li:nth-child(even) .service-item h5, #services li:nth-child(even) .service-item p {
     color: #ffffff; 
     font-weight: 300;
