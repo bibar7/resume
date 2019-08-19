@@ -421,7 +421,7 @@ a {
 
   /*---------------NAV-------------------*/ }
 
-  .jumbotron {
+  .header_image {
     background-image: url('https://bibar7.github.io/resume/images/lights.png');
     width: 100%;
     height: auto;
@@ -431,6 +431,11 @@ a {
     background-size: cover;
   }
 
+  @media (max-width: 500px) {
+    .header_image {
+      background-image: url('https://bibar7.github.io/resume/images/lights_mobile.png');
+    } 
+    }
  
   #header nav {
     position: fixed;
