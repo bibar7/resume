@@ -390,6 +390,7 @@ a {
   }
   @media (max-width: 468px) {
     h3.section-title {
+      font-size: 2.5rem;
       letter-spacing: 0em;
     }
   }
@@ -423,7 +424,7 @@ a {
   .jumbotron {
     background-image: url('https://bibar7.github.io/resume/images/lights.png');
     width: 100%;
-    height: 100%;
+    height: auto;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -854,6 +855,7 @@ background-repeat: no-repeat;
     color: #ffffff;
     font-size: 18px; }
 
+
     #services h5 {
       font-size: 1.2rem;
       font-weight:700;
@@ -949,10 +951,15 @@ background-repeat: no-repeat;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     color: white;
+
   }
 
+  span h6 {
+    text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.65) !important;
+
+  }
   .info li img {
-    padding-top: 20px;
+    padding-top: 5px;
   }
 
   button i {
@@ -1042,6 +1049,7 @@ footer {
   footer p {
     margin: 10px 0;
     line-height: 30px; 
+    font-size: 0.8rem;
   color: #dddbe2;}
   footer a, strong {
     color: white;
