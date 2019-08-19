@@ -103,7 +103,7 @@ Version:	    2.0
   /*primary-color: #455A64;
   primary-color-dark: #263137;
   primary-color-light: #4f6873;
-  accent-color: #f12495;
+  accent-color: #f605b2;
   accent-color-dark: #419645;
   accent-color-light: #63bb67;
   overlay: rgba(0, 0, 0, 0.5);
@@ -251,7 +251,7 @@ p, blockquote {
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.15), 0 3px 10px 0 rgba(0, 0, 0, 0.15); }
 
 a {
-  color: #f12495; }
+  color: #f605b2; }
   a:hover, a:active, a:focus {
     color: #dc59b7;
     text-decoration: none;
@@ -273,14 +273,14 @@ a {
     margin-top: 20px; }
   .swiper-container .swiper-pagination-bullet-active {
     opacity: 1;
-    background: #6044c2; }
+    background: #7f14f2; }
 
 .active-cat {
   color: #ffffff;
-  border-bottom: 2px solid #f12495; }
+  border-bottom: 2px solid #f605b2; }
 
 .custom-btn {
-  background-color: #f12495 !important; }
+  background-color: #f605b2 !important; }
   .custom-btn:hover {
     color: #fff;
     outline: 0;
@@ -288,19 +288,19 @@ a {
   .custom-btn:focus {
     color: #fff;
     outline: 0;
-    background-color: #f12495 !important; }
+    background-color: #f605b2 !important; }
   .custom-btn:active {
     color: #fff;
     outline: 0;
-    background-color: #f12495 !important; }
+    background-color: #f605b2 !important; }
     .custom-btn:active:hover {
       color: #fff;
       outline: 0;
-      background-color: #f12495 !important; }
+      background-color: #f605b2 !important; }
     .custom-btn:active:focus {
       color: #fff;
       outline: 0;
-      background-color: #f12495 !important; }
+      background-color: #f605b2 !important; }
 
 .back-to-top {
   border-radius: 50%;
@@ -350,7 +350,7 @@ a {
 .spinner {
   width: 50px;
   height: 50px;
-  background-color: #f12495;
+  background-color: #f605b2;
   margin: 200px auto;
   -webkit-animation: rotateplane 1.2s infinite ease-in-out;
   animation: rotateplane 1.2s infinite ease-in-out; }
@@ -383,9 +383,9 @@ a {
   padding: 25px 20px; }
 
   h3.section-title {
-    color: #6044c2;
+    color: #7f14f2;
     letter-spacing: .1em;
-    text-shadow: 2px 2px 2px rgba(167, 167, 167, 0.904) !important;
+    text-shadow: 2px 2px 2px rgba(213, 211, 220, 0.904) !important;
 
   }
   @media (max-width: 468px) {
@@ -414,7 +414,7 @@ a {
 #header {
   position: relative;
   display: block;
-  background-color: #6044c2;
+  background-color: #7f14f2;
 
 
 
@@ -479,7 +479,7 @@ a {
         width: 100%;
         height: auto;
         padding: 10px;
-        background-color: #6044c2;
+        background-color: #7f14f2;
       }
 
         #header nav #side-nav #nav-header #nav-profile {
@@ -499,7 +499,7 @@ a {
           font-family: 'florencesans_sc_expbold';
           position: relative;
           margin: 10px 0;
-          color: #f12495;
+          color: #f605b2;
           font-size: 1.4em;
           line-height: 25px; }
       #header nav #side-nav #nav-link-wrapper {
@@ -521,7 +521,7 @@ a {
             padding: 0 20px; }
             #header nav #side-nav #nav-link-wrapper ul li a:hover, #header nav #side-nav #nav-link-wrapper ul li a:active, #header nav #side-nav #nav-link-wrapper ul li a:focus {
               background: none;
-              color: #f12495;
+              color: #f605b2;
               text-decoration: none; }
     #header nav #side-nav-mask {
       position: fixed;
@@ -542,7 +542,7 @@ a {
   #header h1 {
     margin-top: 75px;
     font-size: 3em;
-    color: #f12495;
+    color: #f605b2;
     text-shadow: 6px 3px 0 #000000; }
   #header h2 {
     margin-top: -25px;
@@ -641,7 +641,7 @@ background-repeat: no-repeat;
   position: absolute;
   height: 90%;
   width: 2px;
-  background: #f12495;
+  background: #f605b2;
   left: 0px; }
 
 .timeline ul {
@@ -658,7 +658,7 @@ background-repeat: no-repeat;
   margin-bottom: 20px; }
   .timeline li i {
     font-size: 25px;
-    color: #f12495;
+    color: #f605b2;
     position: absolute;
     top: -11px;
     left: -46px; }
