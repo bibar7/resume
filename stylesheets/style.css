@@ -334,6 +334,7 @@ a {
     #page-loader .text-div p {
 color: #7f14f2;
 font-size: 1.1em;
+letter-spacing: 1px;
 font-weight: 100;
 
 }
@@ -341,13 +342,13 @@ font-weight: 100;
     #page-loader .text-div p, #page-loader .text-div h6 {
       margin: 0;
       display: block;
-      letter-spacing: 1px;
       text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.29); }
     #page-loader .text-div h6 {
       color: #ffffff;
       margin-top: 5px;
         font-family: 'Josefin Sans', sans-serif;
         font-size: 5em;
+        letter-spacing: 3px;
         font-weight: 300;
         font-style: italic;
       }
