@@ -450,6 +450,7 @@ font-weight: 100;
       color: #ffffff; }
       #header nav ul li a {
         color: #06a4fb !important;
+        text-shadow: 1px 1px 1px #000;
         font-family: 'Josefin Sans', sans-serif;
         font-size: 1.2rem;
         font-weight: 300;
